@@ -1,0 +1,36 @@
+To do list:
+Lærer:
+Den vælger en specifik klasse istædet for vælge selve eleven som bliver trykket på. (Inc/evaluering.php)
+
+Kan ikke oprette Klasser selv om Signup_k kører INSERT INTO class (class) VALUES ('I32');
+
+Kan oprette lærer men ikke Lærernes(?) Login. Tror der er et problem i Signup_a
+
+UTF-8 virker ikke i header.php
+
+Du kan oprette elever og elevers Login.
+
+Der var også noget med et kalender men kunden sagde at det ikke var så vigtigt
+
+Elev: 
+
+Kan ikke gemme nye besvarelser fra eleverne. (Inc/Evaluation.php)
+
+
+
+Login information: 
+lærer:
+
+U:Admin	
+P:Pass
+
+Elev: 
+
+U:Logan
+P:Pass
+
+Extra:
+Inc/FagCheck.php er en prototype med en list af eleverne og deres fag som checker hvis de har dem.
+Hvis de har faget kan læreren evaluer dem, men hvis de ikke har dem står der at de ikke har $Fag
+
+Det fordeler dem ikke via Klasse.
